@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E6D7B9;
+}
+
+#cabecera {
+    text-align: center;
+    background-color: #D32F2F;
+    padding: 1px;
+}
+
+ul>li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#navegacion>nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navegacion>nav>ul>li {
+    max-width: 270px;
+    text-align: justify;
+}
+
+#navegacion>nav>ul>li :hover {
+    padding: 12px;
+    scale: 115%;
+    font-size: 25px;
+}
+
+nav>ul>li {
+    margin: 5px;
+}
+
+a>img {
+    width: 270px;
+    height: 195px;
+}

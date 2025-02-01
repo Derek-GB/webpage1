@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E6D7B9;
+}
+#cabecera {
+    text-align: center;
+    background-color: #D32F2F;
+    padding: 1px;
+}
+
+#barra_lateral {
+    background-color: #8D6E63;
+    color: black;
+    margin-right: 25px;
+    padding: 25px;
+    display: block;
+}
+
+
+table>caption {
+    text-align: left;
+}
+
+article>img{
+    width: 360px;
+    height: 260px;
+    margin-left: 38%;
+}
+hr{
+    margin-bottom: 30px;
+}
+
+aside>ul>li{
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+}
+
+#cajaPrincipal{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.txt_receta{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.txt_receta>table{
+    min-width: 300px;
+}
+
+.txt_receta>table>thead {
+    text-align: left;
+}
